@@ -8,7 +8,7 @@ LABEL maintainer="valaxytech@gmail.com"
 COPY ./webapp.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080 to access the application
-EXPOSE 8080
+EXPOSE 8083
 
 # Start Tomcat when the container runs
 CMD ["catalina.sh", "run"]
